@@ -7,11 +7,16 @@ $(document).ready(function () {
             button = $('.button-form', this);
         email.keyup(function () {
             if (emCorr.test($(this).val())) {
-                $(this).parent().parent('.form').children('.button').css('backgroundColor', '#48817B');
+                $(this).parent().parent('.form').children('.button').css({
+                    'backgroundColor': '#FEE7E6',
+                    'color': '#000'
+                });
             }
             if (!$(this).val() || !emCorr.test($(this).val())) {
-                $(this).parent().parent('.form').children('.button').css('backgroundColor', '#C7C7C7')
-                // button.css('backgroundColor', '#C7C7C7')
+                $(this).parent().parent('.form').children('.button').css({
+                    'backgroundColor': '#C7C7C7',
+                    'color': '#fff'
+                })
             }
         })
         $(".form").on("submit", function () {
@@ -70,10 +75,11 @@ $(document).ready(function () {
         dots: false,
         speed: 300,
         arrows: true,
+        appendArrows: '.video-revs-arrows-1-dt',
         // centerPadding: '40px',
         // adaptiveHeight: true,
         // centerMode: true,
-        appendArrows: '.video-revs-arrows-1',
+
         responsive: [{
             breakpoint: 768,
             settings: {
@@ -81,7 +87,8 @@ $(document).ready(function () {
             },
             breakpoint: 561,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 1,
+                appendArrows: '.video-revs-arrows-1-mob',
             }
         }]
     });
@@ -97,15 +104,17 @@ $(document).ready(function () {
         // centerPadding: '40px',
         // adaptiveHeight: true,
         // centerMode: true,
-        appendArrows: '.video-revs-arrows-2',
+        appendArrows: '.video-revs-arrows-2-dt',
         responsive: [{
             breakpoint: 768,
             settings: {
                 slidesToShow: 2
+                
             },
             breakpoint: 561,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 1,
+                appendArrows: '.video-revs-arrows-2-mob',
             }
         }]
     });

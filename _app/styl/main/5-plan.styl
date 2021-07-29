@@ -1,9 +1,7 @@
 #plan
-	padding 70px 0 310px
-	@media screen and (max-width 1199px)
-		padding 70px 0 200px
+	padding 70px 0 150px
 	@media screen and (max-width 991px)
-		padding 90px 0
+		padding 70px 0
 	@media screen and (max-width 560px)
 		padding 60px 0
 .tab-content > .tab-pane
@@ -21,7 +19,7 @@
 			display block
 			width 100%
 			height 100%
-			color: #2B514D
+			color: #C9918F
 			font-family: L
 			font-size: 48px
 			font-weight: normal
@@ -38,21 +36,27 @@
 		&:hover a
 		&.active a
 			text-decoration underline
-			color #2B514D
+			color #C9918
+.day-bonus
+	color: #ADADAD
+	&-title
+		font-size: 24px
+		margin-bottom: 20px
+		@media screen and (max-width 560px)
+			font-size: 20px
 .button-day
 	margin-top: 40px
 	@media screen and (max-width 560px)
 		display none
 .days-img
 	position absolute
-	top 450px
-	right 30px
+	bottom 50px
+	right 100px
 	display block
 	width 100%
-	max-width 503px
+	max-width 362px
 	@media screen and (max-width 1199px)
-		top: 312px;
-		right: -30px;
+		right: 50px
 	@media screen and (max-width 991px)
 		position: static
 		margin 80px auto 0

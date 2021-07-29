@@ -29,7 +29,7 @@
 	width 162px
 	height: 162px
 	top 200px
-	right 400px
+	right -40px
 	@media screen and (max-width 560px)
 		left 0
 .main
@@ -50,11 +50,20 @@
 			font-size: 20px
 		@media screen and (max-width 385px)
 			margin-bottom: 15px
+	&-subtitle
+		font-family: L
+		font-size: 22px
+		font-weight: normal
+		margin-bottom: 20px
+		@media screen and (max-width 767px)
+			font-size: 19px
+		@media screen and (max-width 385px)
+			font-size: 17px
+			margin-bottom: 15px
 	&-text
 		font-size: 22px
 		margin-bottom: 20px
 		span
-			font-weight: 500
 			&.spam
 				background-color: yellow
 				display inline-block
