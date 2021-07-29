@@ -26,11 +26,11 @@ $(document).ready(function () {
             }
             if (!check.prop("checked")) {
                 check.next().css({
-                    'color': 'red',
+                    'color': '#FF7878',
                     'transition': 'all .4s ease'
                 });
                 check.next().children().css({
-                    'color': 'red',
+                    'color': '#FF7878',
                     'transition': 'all .4s ease'
                 });
                 message.text('Подтвердите соглашение').slideDown(500);
