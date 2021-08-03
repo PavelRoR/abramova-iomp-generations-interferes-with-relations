@@ -1,0 +1,15 @@
+section#video
+	.container
+		.row
+			.col-md-6
+				.content
+					+gt('general-title-video-mobile', 'Видео-приглашение')
+					.video-wrapper.video-wrapper-video
+						iframe(src="https://youtube.com/embed/?modestbranding=1" allowfullscreen)
+					+imgs('video-img', 'img/images/video.png', 'Цветок')
+			.col-md-6
+				+gt('general-title-video-desktop', 'Видео-приглашение')
+				p.general-text Этот мастер-класс полностью посвящен теме отношений, он основан на современных терапевтических методах выявления и устранения истинных причин проблем в отношениях
+				p.general-text На нем мы будем разбирать все интересующие женщин вопросы по заявленной теме, он будет полностью выстроен по запросам участниц
+				p.general-text Наглядно разберем, как работать с этой темой глубоко и эффективно. Приходите, мастер-класс будет открытым и честным, он не оставит равнодушной ни одну женщину
+				+b('button-up button-video', href, 'Записаться')
