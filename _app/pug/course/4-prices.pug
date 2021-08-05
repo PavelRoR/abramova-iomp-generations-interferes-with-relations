@@ -1,0 +1,23 @@
+section#prices
+	.container
+		.content
+			.row
+				.col-md-6
+					.packet
+						.packet-head
+							h4.packet-head-title
+								small Обучающий курс
+								=head_title
+						.packet-body
+							p.cost.cost-full Стоимость:
+								span 17 990р.
+							p.cost.cost-sale Скидка:
+								span 2 000р.
+							p.cost.cost-today Стоимость сегодня:
+								span 15 990р.
+							+b('button-cost', 'https://shop.iomp.ru/?r=ordering/cart/as1&id=228&clean=true&lg=ru', 'записаться', '_blank')
+					.timer
+						h4.timer-title Скидка сгорит через:
+						.clock
+				.col-md-6
+					+imgs('prices-img', 'img/images/prices.png', 'Картинка блока')

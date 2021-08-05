@@ -1,0 +1,13 @@
+section#main
+	.container
+		.row
+			.col-md-6
+				p.main-pre Обучающий курс
+				h1.main-title=head_title
+				+imgs('main-img', 'img/images/main.png', 'Картинка блока')
+				.main-info
+					p.main-info-text Старт курса:
+						span с  августа, 19:00(мск)
+					p.main-info-text Автор курса:
+						span Жанна Абрамова
+				+b('button-main', href, 'Записаться')
