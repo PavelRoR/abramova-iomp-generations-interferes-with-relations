@@ -16,7 +16,7 @@ $(document).ready(function () {
  
      if (diff < 0) {
          diff = 0;
-         $('.button-cost').attr('href', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1039&clean=true&lg=ru');
+         $('.button-cost').attr('href', 'https://shop.iomp.ru/?r=ordering/cart/as1&id=229&clean=true&lg=ru');
          $('.cost-full span').addClass('unbroken');
          $('.cost-sale,.cost-today,.timer').remove();
      }
@@ -27,7 +27,7 @@ $(document).ready(function () {
          language: 'ru',
          callbacks: {
              stop: function () {
-                $('.button-cost').attr('href', 'https://shop.mv-centr.ru/?r=ordering/cart/as1&id=1039&clean=true&lg=ru');
+                $('.button-cost').attr('href', 'https://shop.iomp.ru/?r=ordering/cart/as1&id=229&clean=true&lg=ru');
                 $('.cost-full span').addClass('unbroken');
                 $('.cost-sale,.cost-today,.timer').remove();
              }

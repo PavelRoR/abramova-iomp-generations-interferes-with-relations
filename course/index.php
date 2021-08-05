@@ -1,3 +1,8 @@
+<?php
+$now = strtotime('now');
+$date = strtotime('2021-08-11');
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -270,15 +275,21 @@
                     </h4>
                   </div>
                   <div class="packet-body">
+                    <?php if($now < $date){;?>
                     <p class="cost cost-full">Стоимость:<span>17 990р.</span></p>
                     <p class="cost cost-sale">Скидка:<span>2 000р.</span></p>
                     <p class="cost cost-today">Стоимость сегодня:<span>15 990р.</span></p><a class="button button-cost" href="https://shop.iomp.ru/?r=ordering/cart/as1&id=228&clean=true&lg=ru" target="_blank">записаться</a>
+                    <?php } else {;?>
+                    <p class="cost cost-full">Стоимость:<span class="unbroken">17 990р.</span></p><a class="button button-cost" href="https://shop.iomp.ru/?r=ordering/cart/as1&id=229&clean=true&lg=ru" target="_blank">записаться</a>
+                    <?php };?>
                   </div>
                 </div>
+                <?php if($now < $date):?>
                 <div class="timer">
                   <h4 class="timer-title">Скидка сгорит через:</h4>
                   <div class="clock"></div>
                 </div>
+                <?php endif;?>
               </div>
               <div class="col-md-6"><img class="prices-img" src="../img/images/prices.png" alt="Картинка блока"/>
               </div>
@@ -302,10 +313,8 @@
                 <li>Автор курсов по новой системной психологии, МАК, системной терапии, психохирургии, коучинга, НЛП терапии, акмеологии, курсов по женской соматике и психологии</li>
               </ul>
             </div>
-            <div class="col-md-6">
-              <div class="author-img"><img src="../img/images/janna.png" alt="Жанна Абрамова"/>
-                <h4 class="author-title">Жанна Абрамова</h4>
-              </div>
+            <div class="col-md-6"><img class="author-img" src="../img/images/janna.png" alt="Жанна Абрамова"/>
+              <h4 class="author-title">Жанна Абрамова</h4>
             </div>
           </div>
         </div>
