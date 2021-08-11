@@ -61,7 +61,7 @@ $date = strtotime('2021-08-11');
               <p class="main-pre">Обучающий курс</p>
               <h1 class="main-title">«Системно-родовой подход к построению отношений»</h1><img class="main-img" src="../img/images/main.png" alt="Картинка блока"/>
               <div class="main-info">
-                <p class="main-info-text">Старт курса:<span>с  августа, 19:00(мск)</span></p>
+                <p class="main-info-text">Старт курса:<span>с 16 августа, 19:00(мск)</span></p>
                 <p class="main-info-text">Автор курса:<span>Жанна Абрамова</span></p>
               </div><a class="button button-main" href="#prices">Записаться</a>
             </div>
@@ -177,21 +177,21 @@ $date = strtotime('2021-08-11');
           </div>
         </div>
       </section>
-      <section id="about">
+      <section id="plan">
         <div class="container">
-          <h3 class="general-title">Данный курс расскажет вам о том, как:</h3>
+          <h3 class="general-title">План курса:</h3>
           <div class="content">
             <div class="row">
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-1">
                   <h4 class="general-list-ol-title">1</h4>
-                  <p class="general-list-ol-text">С первых слов распознавать истинные намерения мужчины</p>
+                  <p class="general-list-ol-text">Мужские/женские типажи. Изучаем свою и ЕГО типажность</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-2">
                   <h4 class="general-list-ol-title">2</h4>
-                  <p class="general-list-ol-text">Как распознать «своего» мужчину и с каким мужчиной лучше не связываться</p>
+                  <p class="general-list-ol-text">Особенности мужских типажей. Разбираем подход к каждому психотипу</p>
                 </div>
               </div>
             </div>
@@ -199,13 +199,13 @@ $date = strtotime('2021-08-11');
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-3">
                   <h4 class="general-list-ol-title">3</h4>
-                  <p class="general-list-ol-text">Понять, стоит ли тратить время и ожидания в отношении того или иного мужчины, или лучше сразу «делать ноги»</p>
+                  <p class="general-list-ol-text">Система Ф.О.С.О. «Кодекс» взаимодействия и построения отношений с мужчинами</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-4">
                   <h4 class="general-list-ol-title">4</h4>
-                  <p class="general-list-ol-text">Узнать какими «приемами» можно быстро развернуть к себе мужчину</p>
+                  <p class="general-list-ol-text">Формула претензий. Почему у женщин возникает к мужчинам ряд претензий, и что делать с неудовлетворенностью от мужчин. Работаем с обидами, разочарованием, незавершенными чувствами</p>
                 </div>
               </div>
             </div>
@@ -213,13 +213,13 @@ $date = strtotime('2021-08-11');
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-5">
                   <h4 class="general-list-ol-title">5</h4>
-                  <p class="general-list-ol-text">Видеть, когда мужчина манипулирует, а когда действует просто по незнанию как правильно</p>
+                  <p class="general-list-ol-text">Родовые сценарии, влияющие на нашу судьбу. Работаем с родовыми программами по завершению наследственных задач, блокирующих женское счастье</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-6">
                   <h4 class="general-list-ol-title">6</h4>
-                  <p class="general-list-ol-text">Уметь слышать скрытые посылы мужчин</p>
+                  <p class="general-list-ol-text">Родовые программы одиночества (не замужняя, разведенная, одинокая, старая дева, вдова). Учимся работать с родовыми программами, доставшимися по наследству от женщин рода</p>
                 </div>
               </div>
             </div>
@@ -227,13 +227,13 @@ $date = strtotime('2021-08-11');
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-7">
                   <h4 class="general-list-ol-title">7</h4>
-                  <p class="general-list-ol-text">Быть любимой, единственной, важной своему мужчине</p>
+                  <p class="general-list-ol-text">Работа с деструктивными программами прошлого опыта в отношениях. Восстановление потерянного баланса (воронки, откаты, саботаж, депрессии, апатия, женские заболевания и т.д.)</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-8">
                   <h4 class="general-list-ol-title">8</h4>
-                  <p class="general-list-ol-text">Быть женщиной, которую мужчина уважает и с которой считается</p>
+                  <p class="general-list-ol-text">Работа с самоидентичностью в отношениях. Работа по системе Я+. Искаженная идентичность. Самообесценивание</p>
                 </div>
               </div>
             </div>
@@ -241,15 +241,13 @@ $date = strtotime('2021-08-11');
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-9">
                   <h4 class="general-list-ol-title">9</h4>
-                  <p class="general-list-ol-text">Узнать необходимые правила первого свидания, чтобы мужчина «не сливался»</p>
+                  <p class="general-list-ol-text">Абьюз. Манипуляции. Игры. Разбираем сценарий игр, через которые мы взаимодействуем с партнерами</p>
                 </div>
               </div>
-            </div>
-            <div class="row">
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-10">
                   <h4 class="general-list-ol-title">10</h4>
-                  <p class="general-list-ol-text">Что важно делать, чтобы отношения укреплялись, а не разрушались</p>
+                  <p class="general-list-ol-text">Мужчина в кризисе. Разбираем способы «вывода» партнера из кризиса</p>
                 </div>
               </div>
             </div>
@@ -257,11 +255,109 @@ $date = strtotime('2021-08-11');
               <div class="col-md-6">
                 <div class="general-list-ol general-list-ol-11">
                   <h4 class="general-list-ol-title">11</h4>
-                  <p class="general-list-ol-text">Узнать под какую жизненную задачу приходили к вам мужчины и какие уроки необходимо было пройти</p>
+                  <p class="general-list-ol-text">Деньги в паре. Работаем с темой финансов</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="general-list-ol general-list-ol-12">
+                  <h4 class="general-list-ol-title">12</h4>
+                  <p class="general-list-ol-text">Система Антинищета. Работаем с запретами и блоками на получение ресурсов и благ от других людей, партнеров. Работаем с самообесцениванием и личными границами</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="general-list-ol general-list-ol-13">
+                  <h4 class="general-list-ol-title">13</h4>
+                  <p class="general-list-ol-text">Манифестация партнера, финансов, ресурсов по запросу. Учимся договариваться с эгрегором судьбы</p>
+                </div>
+                <div class="general-list-ol general-list-ol-14">
+                  <h4 class="general-list-ol-title">14</h4>
+                  <p class="general-list-ol-text">Управление собственной реальностью по методу квантовой перезагрузки. Формируем сосбвенную реальность, без нужды допроживать чужой опыт</p>
+                </div>
+                <div class="general-list-ol general-list-ol-15">
+                  <h4 class="general-list-ol-title">15</h4>
+                  <p class="general-list-ol-text">Техники регресса по поиску и завершению контрактов опыта Души</p>
                 </div>
               </div>
             </div><a class="button button-about" href="#prices">Иду на курс!</a>
-          </div><img class="about-img" src="../img/images/usefull.png" alt="Картинка блока"/>
+          </div><img class="plan-img" src="../img/images/usefull.png" alt="Картинка блока"/>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <h3 class="general-title">Данный курс расскажет вам о том, как:</h3>
+          <div class="content">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>С первых слов распознавать истинные намерения мужчины</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Как распознать «своего» мужчину и с каким мужчиной лучше не связываться</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Понять, стоит ли тратить время и ожидания в отношении того или иного мужчины, или лучше сразу «делать ноги»</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Узнать какими «приемами» можно быстро развернуть к себе мужчину</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Видеть, когда мужчина манипулирует, а когда действует просто по незнанию как правильно</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Уметь слышать скрытые посылы мужчин</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Быть любимой, единственной, важной своему мужчине</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Быть женщиной, которую мужчина уважает и с которой считается</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Узнать необходимые правила первого свидания, чтобы мужчина «не сливался»</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Что важно делать, чтобы отношения укреплялись, а не разрушались</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="general-list-ul general-list-ul-3">
+                  <li>Узнать под какую жизненную задачу приходили к вам мужчины и какие уроки необходимо было пройти</li>
+                </ul>
+              </div>
+            </div>
+          </div><img class="about-img" src="../img/images/plan.png" alt="Картинка блока"/>
         </div>
       </section>
       <section id="prices">
